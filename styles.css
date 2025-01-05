@@ -1,2 +1,12 @@
 
 /* Your CSS Code here. */
+
+:root {
+  --blur: 10px;
+  --spacing: 100px;
+}
+
+img {
+  filter: blur(var(--blur));
+  padding: var(--spacing);
+}

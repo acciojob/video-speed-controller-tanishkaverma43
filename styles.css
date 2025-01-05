@@ -1,12 +1,9 @@
-
-/* Your CSS Code here. */
-
 :root {
   --blur: 10px;
   --spacing: 100px;
 }
 
-img {
+.flex {
   filter: blur(var(--blur));
   padding: var(--spacing);
 }
